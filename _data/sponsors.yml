@@ -1,0 +1,15 @@
+- name: Consoft Sistemi S.p.A.
+  image: /images/sponsors/consoft.jpg
+  url: http://www.consoft.it
+
+- name: Reply S.p.A.
+  image: /images/sponsors/reply.jpg
+  url: http://www.reply.eu
+
+- name: Alyt Inc.
+  image: /images/sponsors/alyt.jpg
+  url: https://www.alyt.com/
+
+- name: I3P
+  image: /images/sponsors/i3p.jpg
+  url: http://www.i3p.it

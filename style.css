@@ -1,0 +1,94 @@
+.projects-card .mdl-card__title {
+    padding-bottom: 0;
+}
+
+img.card-image, img.fullpage-image {
+    width: 100%;
+    height: auto;
+}
+
+.page-max-width {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.logo-image {
+    width: 180px;
+    height: auto;
+}
+
+.ami-header {
+    overflow: visible;
+}
+
+.ami-header .material-icons {
+    color: #767777 !important;
+}
+
+.ami-header .mdl-navigation__link {
+    color: #757575;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.navigation-container {
+    /* Simple hack to make the overflow happen to the left instead... */
+    direction: rtl;
+    order: 1;
+    width: 500px;
+    transition: opacity 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    width 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.navigation {
+    /* ... and now make sure the content is actually LTR */
+    direction: ltr;
+    justify-content: flex-end;
+    width: 800px;
+}
+
+.navigation .mdl-navigation__link {
+    display: inline-block;
+    height: 60px;
+    line-height: 68px;
+    background-color: transparent !important;
+    border-bottom: 4px solid transparent;
+}
+
+.navigation .mdl-navigation__link:hover {
+    border-bottom: 4px solid #448AFF;
+}
+
+.navigation .active {
+    border-bottom: 4px solid #448AFF;
+}
+
+.mdl-layout .side-navigation .active {
+    color: #448AFF;
+    font-weight: 700;
+}
+
+.course-overview {
+    width: initial;
+}
+
+.img-vcenter {
+    align-items: center;
+}
+
+.mdl-mini-footer__social-btn {
+    background-color: transparent;
+}
+
+.social-icon {
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+}
+
+/**** Mobile layout ****/
+@media (max-width: 900px) {
+    .navigation-container {
+        display: none;
+    }
+
+}

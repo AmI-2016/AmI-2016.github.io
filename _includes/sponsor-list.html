@@ -1,0 +1,10 @@
+<div class="mdl-grid img-vcenter">
+
+    {% for sponsor in site.data.sponsors %}
+
+    <div class="mdl-cell mdl-cell--3-col-desktop" >
+        <a href="{{sponsor.url}}" title="{{sponsor.name}}"><img class="card-image" src="{{sponsor.image | prepend: site.baseurl}}" border="0" alt="{{sponsor.name}}"></a>
+    </div>
+
+    {% endfor %}
+</div>

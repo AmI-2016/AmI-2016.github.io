@@ -1,0 +1,24 @@
+---
+layout: default
+---
+<div class="mdl-grid page-max-width">
+
+  <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp">
+
+    <div class="mdl-card__title">
+      <h2 class="mdl-card__title-text">{{ page.title }}</h2>
+    </div>
+
+    {% if page.image %}
+    <div class="mdl-card__media">
+      <img class="fullpage-image" src="{{ page.image | prepend: site.baseurl }}" border="0" alt="">
+    </div>
+    {% endif %}
+
+    <div class="mdl-card__supporting-text">
+      {{ content }}
+    </div>
+
+  </div>
+
+</div>

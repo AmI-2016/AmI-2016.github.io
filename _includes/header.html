@@ -1,0 +1,40 @@
+<header class="ami-header mdl-layout__header mdl-color--grey-100 mdl-color-text--grey-600 mdl-layout__header--waterfall">
+  <div class="mdl-layout__header-row ">
+    <span class="mdl-layout-title">
+      <a href="/" title="Projects">
+        <img class="logo-image" src="{{ "/images/AmI-logo.png" | prepend: site.baseurl }}">
+      </a>
+    </span>
+
+    <!-- Add spacer, to align navigation to the right in desktop -->
+    <div class="mdl-layout-spacer"></div>
+    <!-- Navigation -->
+    <div class="navigation-container mdl-layout--large-screen-only">
+      <nav class="navigation mdl-navigation">
+        {% assign pages = site.pages | sort: 'order' %}
+        {% for menu_page in pages %}
+        {% if menu_page.title %}
+        <a class="mdl-navigation__link mdl-typography--text-uppercase {% if menu_page.title == page.title %} active {% endif %}" href="{{ menu_page.url | prepend: site.baseurl }}">{{ menu_page.title }}</a>
+        {% endif %}
+        {% endfor %}
+      </nav>
+    </div>
+
+  </div>
+</header>
+
+<div class="mdl-layout__drawer mdl-layout--small-screen-only">
+  <span class="mdl-layout-title">
+    <a href="/" title="Projects">
+      <img class="logo-image" src="{{ "/images/AmI-logo.png" | prepend: site.baseurl }}">
+    </a>
+  </span>
+  <nav class="side-navigation mdl-navigation">
+    {% assign pages = site.pages | sort: 'order' %}
+    {% for menu_page in pages %}
+    {% if menu_page.title %}
+    <a class="mdl-navigation__link {% if menu_page.title == page.title %} active {% endif %}" href="{{ menu_page.url | prepend: site.baseurl }}">{{ menu_page.title }}</a>
+    {% endif %}
+    {% endfor %}
+  </nav>
+</div>

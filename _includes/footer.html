@@ -1,0 +1,19 @@
+<footer class="mdl-mini-footer">
+
+  <div class="mdl-mini-footer__left-section">
+      <ul class="mdl-mini-footer__link-list">
+          <li>© 2016 The <a href="http://elite.polito.it" target="_blank" title="e-Lite website">e-Lite</a> group</li>
+      </ul>
+  </div>
+
+  <div class="mdl-mini-footer__right-section">
+      {% if site.facebook_group %}
+        {% include icon-facebook.html name=site.facebook_group %}
+      {% endif %}
+
+      {% if site.github_username %}
+        {% include icon-github.html username=site.github_username %}
+      {% endif %}
+  </div>
+
+</footer>

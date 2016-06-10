@@ -1,0 +1,12 @@
+# Site settings
+title: Ambient Intelligence
+description: > # this means to ignore newlines until "baseurl:"
+  Projects realized by the students of the AmI course (Politecnico di Torino,
+  Italy) in the year 2016. Theme of the projects is Health and Wellbeing.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ami-2016.github.io" # the base hostname & protocol for your site
+github_username: "AmI-2016"
+facebook_group: "polito.ami"
+
+# Build settings
+markdown: kramdown
