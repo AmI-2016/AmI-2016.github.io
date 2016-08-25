@@ -10,13 +10,13 @@
   image: /images/sponsors/alyt.jpg
   url: https://www.alyt.com
 
-- name: Nital S.p.A.
-  image: /images/sponsors/nital.png
-  url: https://www.nital.it
-
 - name: I3P
   image: /images/sponsors/i3p.jpg
   url: http://www.i3p.it
+
+- name: Nital S.p.A.
+  image: /images/sponsors/nital.png
+  url: https://www.nital.it
 
 - name: Treatabit
   image: /images/sponsors/treatabit.png
