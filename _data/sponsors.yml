@@ -8,7 +8,11 @@
 
 - name: Alyt Inc.
   image: /images/sponsors/alyt.jpg
-  url: https://www.alyt.com/
+  url: https://www.alyt.com
+
+- name: Nital S.p.A.
+  image: /images/sponsors/nital.png
+  url: https://www.nital.it
 
 - name: I3P
   image: /images/sponsors/i3p.jpg
