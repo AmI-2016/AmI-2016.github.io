@@ -21,3 +21,7 @@
 - name: Treatabit
   image: /images/sponsors/treatabit.png
   url: http://www.treatabit.com
+
+- name: Reti S.p.A.
+  image: /images/sponsors/retispa.png
+  url: http://www.reti.it  
