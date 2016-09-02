@@ -24,4 +24,16 @@
 
 - name: Reti S.p.A.
   image: /images/sponsors/retispa.png
-  url: http://www.reti.it  
+  url: http://www.reti.it
+
+- name: Fondo sociale europeo 2014/2020
+  image: /images/sponsors/fondo-sociale-europeo.png
+  url: '#'
+
+- name: Fondazione Cariplo
+  image: /images/sponsors/cariplo.png
+  url: '#'
+
+- name: Microsoft YouthSpark
+  image: /images/sponsors/youthspark.png
+  url: '#'
