@@ -2,6 +2,7 @@
 title: "Study Station"
 date: 2016-05-31 16:22:15 +0200
 categories: projects
+showcase: "yes"
 image: images/project-snapshots/studystation.png
 project_url: http://ami-2016.github.io/StSt
 ---

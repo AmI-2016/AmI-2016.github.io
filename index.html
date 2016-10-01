@@ -34,6 +34,14 @@ order: 0
         <a class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--accent" href="{{project.project_url}}" target="_blank" rel="noopener">Learn more</a>
     </div>
 
+    {% if project.showcase == 'yes' %}
+    <div class="mdl-card__menu">
+      <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab mdl-button--colored">
+        <i class="material-icons">event_available</i>
+      </button>
+    </div>
+    {% endif %}
+
   </div>
 
   {% endfor %}
